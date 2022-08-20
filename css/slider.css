@@ -1,0 +1,52 @@
+#slider{
+	overflow: hidden;
+	z-index: 0;
+}
+#slider>ol{
+	width:500%;
+	list-style: none;
+	height: 500px;
+	position: relative;
+	animation: img_slider linear 12s infinite;
+}
+#slider>ol>li{
+	float: left;
+	height: 500px;
+	width: 20%;
+}
+ @keyframes img_slider{
+ 	0%{
+ 		left: 0px;
+
+ 	}
+	15%{
+		left: 0px;
+ 	}
+ 	20%{
+		left: -100%;
+ 	}
+ 	35%{
+		left: -100%;
+ 	}
+ 	40%{
+		left: -200%;
+ 	}
+ 	55%{
+		left: -200%;
+ 	}
+ 	60%{
+		left: -300%;
+ 	}
+ 	75%{
+		left: -300%;
+ 	}
+ 	80%{
+		left: -400%;
+ 	}
+ 	95%{
+ 		left: -400%;
+ 	}
+ 	100%{
+		left: -400%;
+ 	}
+}
